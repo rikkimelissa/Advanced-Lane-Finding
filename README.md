@@ -107,8 +107,7 @@ Using the fitted curves, a filled lane is drawn on the warped image and shifted 
 
 Here's a link to my video result!
 
-[![Watch the video][image13]](https://youtu.be/0oPe_fMTp50
-
+[![Watch the video][image13]](https://youtu.be/0oPe_fMTp50)
 ---
 
 ### Discussion
