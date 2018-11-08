@@ -16,6 +16,8 @@ The goal of this project is to write a software pipeline to identify the lane bo
 [image10]: ./output_images/thresholding.png "Thresholding image with color and edges"
 [image11]: ./output_images/left_fit.png "Fitting left lane from previous"
 [image12]: ./output_images/right_fit.png "Fitting right lane from previous"
+[image13]: ./output_images/cover_image.png "Watch the video!"
+
 
 ### Here I will describe the steps I took to reach this goal.
 
@@ -31,6 +33,7 @@ As we did in the practice sections before this project, I start by preparing "ob
 
 Here are two examples of finding chessboard corners:
 ![alt text][image1]
+
 ![alt text][image2]
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result, shown before and after distortion: 
@@ -99,7 +102,9 @@ Using the fitted curves, a filled lane is drawn on the warped image and shifted 
 
 ### Video
 
-Here's a [link to my video result](https://youtu.be/0oPe_fMTp50)
+Here's a link to my video result!
+
+[![Watch the video][image13]](https://youtu.be/0oPe_fMTp50
 
 ---
 
